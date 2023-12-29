@@ -1,0 +1,119 @@
+<!DOCTYPE html> 
+<html lang="en">
+<meta charset ="utf-8">
+
+<head>
+<title> Planet Pictures </title>
+</head>
+
+<body>
+<!--Navigation-->
+	<div>
+		<div>
+			<ul>
+				<a href="#home"><li>HOME</li><a>
+				<a href="#gallery"><li>GALLERY</li></a>
+				<a href="#login"><li>LOGIN</li></a>
+			</ul>
+		</div>
+	</div>
+<!--END NAV-->
+<!--HOME-->
+<div id="home">
+		<div>
+			<div>
+				<span><h3>Gallery planet</h3></span>
+				<p>six planet in the galaxy (log in to see the entire galaxy of planets)</P>
+			</div>
+		</div>	
+	</div>	
+<!--End home-->
+<!--GALLERY-->
+<section>
+	<div id="gallery">
+	
+		<h1>Gallery Planet</h1>
+		<div>
+			<div>
+				<img src="images/planet1.PNG" alt="Planeta 1">
+				<div>
+					<h3>Clic to Enlarge</h3>
+					<p>Mars</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div>
+				<img src="images/planet2.PNG" alt="Planeta 2">
+				<div>
+					<h3>Clic to Enlarge</h3>
+					<p>Mercury</p>
+				</div>
+			</div>
+		</div><div>
+			<div>
+				<img src="images/planet3.PNG" alt="Planeta 3">
+				<div>
+					<h3>Clic to Enlarge</h3>
+					<p>Venus</p>
+				</div>
+			</div>
+		</div><div>
+			<div>
+				<img src="images/planet4.PNG" alt="Planeta 4">
+				<div>
+					<h3>Clic to Enlarge</h3>
+					<p>Neptune</p>
+				</div>
+			</div>
+		</div><div>
+			<div>
+				<img src="images/planet5.PNG" alt="Planeta 5">
+				<div>
+					<h3>Clic to Enlarge</h3>
+					<p>Saturn</p>
+				</div>
+			</div>
+		</div><div>
+			<div>
+				<img src="images/planet6.PNG" alt="Planeta 6">
+				<div>
+					<h3>Clic to Enlarge</h3>
+					<p>Uranus</p>
+				</div>
+			</div>
+		</div>
+       
+    </div>
+</section>	
+<div>
+					<h2>LOGIN:<h2>
+</div>
+					
+	<div id="login">
+	
+	
+			<div>
+				<div>
+					<form action="" method="post">
+	
+						Login:<input type="text" name="first_name"><br>
+						
+						Password: <input type=:"email" name="Password"><br>
+					  
+					   <input type="submit" value+"Submit">
+					</form>
+				</div>
+			</div>
+	</div>	
+	
+<div id="footer">
+ www.google.com 2023/24
+</div> 
+	
+	
+	
+	   
+
+</body>
+</html>
