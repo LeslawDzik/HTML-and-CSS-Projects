@@ -55,10 +55,10 @@ h1{
 .squares:nth-child(-n+4):hover {
     background-image: url("./Icons/smile1.png");
     transform: scale(.5);
-    animation-name: race; /* Nazwa animacji */
-    animation-duration: 2.5s; /* Czas trwania animacji */
-    animation-iteration-count: infinite; /* Liczba powtórzeń */
-    animation-timing-function: cubic-bezier(2.5, .2, .3, 2); /* Funkcja czasu animacji */
+    animation-name: race; 
+    animation-duration: 2.5s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: cubic-bezier(2.5, .2, .3, 2); 
 }
 
 @keyframes race {
