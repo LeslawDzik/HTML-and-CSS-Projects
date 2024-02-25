@@ -1,0 +1,84 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(../images/ludzie.jpg);
+    width: 100%;
+    border: solid 3px;
+    margin: auto;
+
+}
+body h2 {
+    font-size: 50px;
+
+}
+input[type="text"], input[type="email"], input[type="message"], input[type="submit"] {
+    width: 45%; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+#contact {
+    border: 1px solid #ccc; 
+    background-color: #fff; 
+    padding: 20px; 
+}
+
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.contact-container h2 {
+    margin-top: 0; 
+}
+
+
+.contact-container form {
+    display:-moz-inline-box;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px; 
+    font-size: 20px;
+}
+
+
+.contact-container form label {
+    margin-bottom: 5px;
+}
+footer p {
+    border:solid 7px;
+    margin: 0;
+    border-color: #0c0c0c;
+    background-color: #ccc;
+}
+#video {
+    text-align: center;
+}
+#wideo,h2 {
+    color:black;
+    transition: 0,3s;
+    
+}
+#wideo,h2:hover{
+    color: darkred; 
+}
+#pictures {
+    text-align: center;
+    margin: 5px;
+
+}
+img {
+    width: 400px; 
+    height: 200px; 
+}
+img {
+    transition: transform 0.3s ease;
+}
+
+
+img:hover {
+    transform: scale(1.1);
+}
