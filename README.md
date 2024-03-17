@@ -13,4 +13,6 @@ a page with a navigation menu, gallery and video, and a form to complete
 
 bootstrap4_project
 a website presenting a cinema with a selection of films and a form of subscribing via email, all made by boostrap.4
+<h2>planety</h2>
+a page with a resort on different planets with a floating navigation menu with a floating gallery and a form
 
